@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iotpage08</title>
+    <link rel="shortcut icon" href="./images/iot.png" type="images/png" />
+  </head>
+  <!-- HTML  Table TAG (block tag)-->
+  <!-- ตารางที่แต่ละแถว มีจำนวนคอลัมน์เท่ากัน -->
+  <table border="1" width="400">
+    <tr>
+      <!--ตาราง-->
+      <td>a</td>
+      <!--แถว-->
+      <td>b</td>
+      <td>c</td>
+      <td>d</td>
+    </tr>
+    <tr>
+      <td>e</td>
+      <td>f</td>
+      <td>g</td>
+      <td>h</td>
+    </tr>
+    <tr>
+      <td>i</td>
+      <td>j</td>
+      <td>k</td>
+      <td>l</td>
+    </tr>
+    <tr>
+      <td>m</td>
+      <td>n</td>
+      <td>o</td>
+      <td>p</td>
+    </tr>
+  </table>
+  <br /><br />
+
+  <!-- ตารางที่แต่ละแถว มีจำนวนคอลัมน์ไม่เท่ากัน -->
+  <body>
+    <table border="1" width="400">
+    <tr>
+        <td colspan="2">a</td>
+        <td>b</td>
+        <td>c</td>
+    </tr>
+    <tr>
+        <td rowspan="2">d</td>
+        <td>e</td>
+        <td colspan="2">f</td>
+    </tr>
+    <tr>
+        <td colspan="2">g</td>
+        <td rowspan="2">h</td>
+    
+    </tr>
+    <tr>
+        <td>i</td>
+        <td>j</td>
+        <td>k</td>
+    </tr>
+    </table>
+    <br><br>
+    <!-- ตารางที่  Header หรือ Footer-->
+     <table border="1" width="400">
+        <thead><!-- หัว ตาราง-->
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+
+        </thead>
+
+        <tbody><!-- หัว ตาราง-->
+            <tr>
+                <td>6819</td>
+                <td>PM</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>8888</td>
+                <td>MK</td>
+                <td>32</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot><!-- หัว ตาราง-->
+            <tr>
+                <th colspan="2">อายุรวมกัน</th>
+                <td>63</td>
+            </tr>
+
+        </tfoot>
+
+     </table>
+  </body>
+</html>
